@@ -27,19 +27,10 @@ a.forEach((e) => {
 });
 var player = new SVGA.Player('#demoCanvas');
 var parser = new SVGA.Parser('#demoCanvas'); // 如果你需要支持 IE6+，那么必须把同样的选择器传给 Parser。
-parser.load('./image/eats2x.svga', function (videoItem) {
+parser.load('./image/红心眼睛.svga', function (videoItem) {
 	player.setVideoItem(videoItem);
 	player.startAnimation();
 });
-
-var cre = document.querySelector('#topLocale');
-cre.addEventListener(
-	'click',
-	function () {
-		document.querySelector('.locale').classList.toggle('open');
-	},
-	false
-);
 
 function copy() {
 	var textarea = document.createElement('textarea');
