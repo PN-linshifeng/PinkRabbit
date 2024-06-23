@@ -63,7 +63,7 @@ canvas {
 }
 header {
 	display: flex;
-	padding: 20px 20px 40px !important;
+	padding: 20px 20px 0px !important;
 	justify-content: space-between;
 	align-items: center;
 	font-size: 15px;
@@ -84,6 +84,7 @@ header {
 			align-items: center;
 			justify-content: center;
 			padding-top: 15px;
+			font-size: 18px;
 			li {
 				text-align: center;
 				a {
@@ -313,6 +314,8 @@ header {
 		left: 50%;
 		transform: translatex(-50%);
 		width: 100%;
+		height: 100%;
+		overflow: hidden;
 	}
 	@media (max-width: 820px) {
 		padding-top: 90px;
@@ -555,7 +558,7 @@ span.xx {
 		}
 	}
 	.middle {
-		margin-left: -40px;
+		margin-left: -80px;
 		width: 346/1400 * 100%;
 		padding-bottom: 60px;
 	}
