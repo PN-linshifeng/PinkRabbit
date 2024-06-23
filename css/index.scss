@@ -45,7 +45,7 @@ canvas {
 }
 .block-1 {
 	background: url(../image/x2/bg1@2x.png) no-repeat center top;
-	background-size: auto 100%;
+	background-size: 100% 100%;
 	overflow: hidden;
 	&::after {
 		position: relative;
@@ -280,7 +280,7 @@ header {
 		width: 100%;
 		height: 37px;
 		background: url(../image/x2/Vector_43@2x.png) no-repeat center top;
-		background-size: auto 100%;
+		background-size: 100% 100%;
 	}
 }
 .gogo {
@@ -418,6 +418,7 @@ span.xx {
 	align-items: end;
 	margin-bottom: -15px;
 	.left {
+		flex: 1;
 		.title {
 			flex: 1;
 			margin-bottom: 20px;
@@ -442,8 +443,12 @@ span.xx {
 		padding-bottom: 60px;
 	}
 	.right {
+		text-align: right;
+		flex: 1;
 		line-height: 0;
-		width: 427/1400 * 100%;
+		img {
+			max-width: 427px;
+		}
 	}
 }
 .your {
