@@ -32,11 +32,11 @@ parser.load('./image/红心眼睛.svga', function (videoItem) {
 	player.startAnimation();
 });
 
-function copy() {
+function copy(value) {
 	var textarea = document.createElement('textarea');
 	textarea.style.position = 'fixed';
 	textarea.style.opacity = 0;
-	textarea.value = 'copy';
+	textarea.value = value;
 	document.body.appendChild(textarea);
 	textarea.select();
 	document.execCommand('copy');
