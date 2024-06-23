@@ -500,6 +500,7 @@ span.xx {
 		}
 	}
 	@media (max-width: 577px) {
+		margin-bottom: -5px;
 		ul {
 			li {
 				display: flex;
@@ -593,6 +594,9 @@ span.xx {
 	.content {
 		margin: 0 auto;
 		width: 1325/1400 * 100%;
+	}
+	@media (max-width: 577px) {
+		margin-bottom: -10px;
 	}
 }
 .footer-page {

@@ -500,6 +500,9 @@ span.xx::after {
   width: 100%;
 }
 @media (max-width: 577px) {
+  .buy {
+    margin-bottom: -5px;
+  }
   .buy ul li {
     display: flex;
     font-size: 16px;
@@ -595,6 +598,11 @@ span.xx::after {
 .your .content {
   margin: 0 auto;
   width: 94.6428571429%;
+}
+@media (max-width: 577px) {
+  .your {
+    margin-bottom: -10px;
+  }
 }
 
 .footer-page {
