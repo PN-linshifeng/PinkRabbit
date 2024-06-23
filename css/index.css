@@ -486,6 +486,9 @@ span.xx::after {
   max-width: 599px;
   width: 80%;
 }
+.buy i {
+  cursor: pointer;
+}
 .buy ul {
   margin-bottom: 80px;
 }
@@ -496,6 +499,7 @@ span.xx::after {
   display: flex;
   border-radius: 10px;
   margin-bottom: 20px;
+  align-items: center;
 }
 .buy ul li span:nth-child(1) {
   font-size: 32px;

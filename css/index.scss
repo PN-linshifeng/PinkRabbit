@@ -486,6 +486,9 @@ span.xx {
 			width: 80%;
 		}
 	}
+	i {
+		cursor: pointer;
+	}
 	ul {
 		margin-bottom: 80px;
 		li {
@@ -495,6 +498,7 @@ span.xx {
 			display: flex;
 			border-radius: 10px;
 			margin-bottom: 20px;
+			align-items: center;
 			span:nth-child(1) {
 				font-size: 32px;
 				font-weight: bold;
