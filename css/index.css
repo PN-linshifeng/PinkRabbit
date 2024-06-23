@@ -307,7 +307,6 @@ header .show-phone {
 }
 .banner .money {
   position: absolute;
-  max-width: 964px;
   z-index: 2;
   top: 0;
   left: 50%;
