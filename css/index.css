@@ -585,13 +585,14 @@ span.xx::after {
     overflow: hidden;
   }
   .roadmap .left {
-    width: 100;
+    width: 100%;
+    flex: auto;
   }
   .roadmap .left .title {
     text-align: center;
   }
   .roadmap .left .title img {
-    width: 80%;
+    width: 70%;
   }
   .roadmap .left p {
     font-size: 22px;
@@ -600,6 +601,10 @@ span.xx::after {
   .roadmap .middle,
   .roadmap .right {
     width: 50%;
+  }
+  .roadmap .middle img,
+  .roadmap .right img {
+    width: 130%;
   }
 }
 
